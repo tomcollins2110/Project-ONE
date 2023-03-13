@@ -15,7 +15,7 @@ body {
   .column {
     text-align: center;
     width: 100%;
-    background-color: #a065ff; /* add background color */
+    background-color: #a065ff;
     overflow-wrap: break-word;
     box-sizing: border-box;
     padding: 10px;
@@ -42,4 +42,25 @@ body {
   }
 }
 
+li {
+  list-style: none;
+}
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.menus {
+  display: flex;
+  list-style: none;
+}
+
+.menus li {
+  margin-right: 20px;
+  border: 2px solid black;
+}
+
+.menus li:last-child {
+  margin-right: 0;
+}
