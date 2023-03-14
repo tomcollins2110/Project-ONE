@@ -1,10 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&display=swap');
+
+/* _______________________ BODY _______________________ */
+
 body {
+  font-family: Phudu;
   background-image: url('/assets/images/bridge1.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
   padding-bottom: 50px;
 }
+
+/* _______________________ REGULAR HTML ELEMENTS _______________________ */
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+em {
+  color: gold;
+}
+
+/* _______________________ HEADER _______________________ */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* _______________________ HOME COLUMNS _______________________ */
 
 @media screen and (max-width: 767px) {
   .row {
@@ -43,14 +72,7 @@ body {
   }
 }
 
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
+/* _______________________ MENU _______________________ */
 
 .menu:hover {
   background-color: red;
@@ -62,13 +84,29 @@ a {
 }
 
 .menus li {
+  text-align: center;
   margin-right: 20px;
   border: 2px solid black;
+  padding: 10px;
+  box-shadow: -5px 5px 10px rgb(255, 255, 255), 5px 5px 10px rgb(255, 255, 255);
 }
 
 .menus li:last-child {
-  margin-right: 0;
+  margin-right: 20px;
 }
+
+/* _______________________ LINKS _______________________ */
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* _______________________ FORM _______________________ */
 
 form {
   width: 50%;
@@ -81,6 +119,8 @@ form {
   padding: 10px;
   margin: 10px;
 }
+
+/* _______________________ FOOTER _______________________ */
 
 footer {
   background-color:red;
